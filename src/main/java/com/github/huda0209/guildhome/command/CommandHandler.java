@@ -32,7 +32,7 @@ public class CommandHandler implements CommandExecutor {
 
             case "reload":
                 if(!sender.hasPermission("GuildHome.Reload")){
-                    player.sendMessage("§a[" + plugin.getDescription().getName() + "]§c You don't have permission!");
+                    player.sendMessage("§9[" + plugin.getDescription().getName() + "]§c You don't have permission!");
                     return true;
                 }
                 try {
