@@ -1,0 +1,14 @@
+name: Guildhome
+version: @version@
+main: com.github.huda0209.guildhome.Guildhome
+api-version: 1.16
+prefix: GuildHome
+authors: [ huda0209 ]
+commands:
+  guildhome:
+    description: GuildHome plugin command.
+permissions:
+  GuildHome.AdminMode:
+    default: op
+  GuildHome.Reload:
+    default: op

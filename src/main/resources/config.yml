@@ -1,0 +1,17 @@
+#  ------------------------------------------------------------
+#  |                     GuildHome plugin                     |
+#  |                                                          |
+#  |           Author : huda0209                              |
+#  |           Depend :                                       |
+#  |   GitHub : https://github.com/stella-server-mc/GuildHome |
+#  |                    ran by spigot 1.16                    |
+#  ------------------------------------------------------------
+
+#破壊されたくないブロックIDを列挙する
+#必ず大文字で記述
+#If you want to check up the block id, look this page.
+#https://papermc.io/javadocs/paper/1.16/org/bukkit/Material.html
+
+BreakBlock:
+  - GLASS
+  - GLASS_PANE
