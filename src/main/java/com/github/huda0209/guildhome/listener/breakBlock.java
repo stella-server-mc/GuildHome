@@ -23,7 +23,7 @@ public class breakBlock implements Listener {
         String block = event.getBlock().getBlockData().getMaterial().toString();
         List<String> BreakBlock = plugin.getConfig().getStringList("BreakBlock");
 
-        if(!player.hasPermission("GuildHome.AdminMode")){
+        if(!player.hasPermission("GuildHome.AdminMode") && modeManager.getAdminMode(player)){
             modeManager.setAdminMode(player,false);
             player.sendMessage("§9[" + plugin.getDescription().getName() + "]§c You didn't have permission. So admin mode was disable.");
         }
